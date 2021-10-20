@@ -6,4 +6,4 @@ I have extensive experience in project management, software engineering, and dat
 
 Outside of work, I am an avid runner and passionate builder of side-projects. 
 
-You can download my CV here. 
+You can download my CV [here](Resume_Jennings.pdf). 
