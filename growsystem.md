@@ -1,6 +1,6 @@
 ## Automatic Grow System
 
-[![Grow System Demo]()](growsystem_demo.mov "Grow System Demo")
+[![Grow System Demo](growsystem_pic.jpg)](https://youtu.be/gWeblAbjfuM "Grow System Demo")
 
 Automatic control system designed to automate the lighting, temperature, and humidity of apartment plants. 
 
