@@ -8,8 +8,8 @@ Outside of work, I am an avid runner and passionate builder of side-projects.
 
 You can download my CV [here](Resume_Jennings.pdf). 
 
+
 ## Side Projects:
 
 [Marathon Training Plan Generator](https://kevjen37.github.io/runningapp)
-
 [Automated Grow System](https://kevjen37.github.io/growsystem)
