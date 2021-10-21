@@ -1,5 +1,7 @@
 ## Automatic Grow System
 
+[![Grow System Demo]()](growsystem_demo.mov "Grow System Demo")
+
 Automatic control system designed to automate the lighting, temperature, and humidity of apartment plants. 
 
 System is controlled by a PLC (microcontroller) and leverages digital relays in addition to DC voltage analog outputs.
