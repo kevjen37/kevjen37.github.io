@@ -10,6 +10,6 @@ You can download my CV [here](Resume_Jennings.pdf).
 
 ## Side Projects:
 
-[Marathon Training Plan Generator](https://kevjen37.github.io/runningapp)
+[Marathon Training Plan Generator](https://kevjen37.github.io/runningapp.html)
 
-[Automated Grow System](https://kevjen37.github.io/growsystem)
+[Automated Grow System](https://kevjen37.github.io/growsystem.html)
