@@ -1,7 +1,7 @@
 ## Marathon Training Plan Generator
 
-[![Running App Demo](runningapp_pic.jpg)](https://youtu.be/JBdx1oLO5Ac "Running App Demo")
-_Click for demo_
+<!--[![Running App Demo](runningapp_pic.jpg)](https://youtu.be/JBdx1oLO5Ac "Running App Demo")
+_Click for demo_-->
 
 Python web application designed to provide athletes with a 4-week cycle marathon training plan using either their most recent race time or Strava data. 
 
