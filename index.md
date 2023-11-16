@@ -1,9 +1,3 @@
-#  Welcome to my personal blog and repository
-
- 
-
-
-
 ## Background
 
 Degrees:
