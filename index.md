@@ -1,4 +1,4 @@
-### Home
+# Home
 
  Welcome to my personal blog and repository. 
 
