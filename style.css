@@ -1,0 +1,33 @@
+<style>
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-text {
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+
+  .sub-heading {
+    font-style: italic;
+    color: #777;
+  }
+
+  .header-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  .circular-frame {
+    border: 2px solid #3498db; /* You can adjust the color as needed */
+  }
+</style>
