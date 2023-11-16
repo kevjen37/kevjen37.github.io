@@ -1,6 +1,6 @@
-# Home
+#  Welcome to my personal blog and repository
 
- Welcome to my personal blog and repository. 
+ 
 
 
 
