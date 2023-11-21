@@ -20,11 +20,12 @@ Currently working as a management consultant in New York City
 
 * Researching anything technology-related, with an emphasis on smart energy, public policy, and emerging tech. *[technology insights](https://kevjen37.github.io/tech-insights.html)*
 
-* Building tools to analyze endurance training data, messing with electronics, and developing data analysis tools for small businesses. *[side projects](https://kevjen37.github.io/side-projects.html)*, *[Github](https://github.com/kevjen37)
+* Building tools to analyze endurance training data, messing with electronics, and developing data analysis tools for small businesses. *[side projects](https://kevjen37.github.io/side-projects.html)*, *[Github](https://github.com/kevjen37)*
 
 * Training for endurance competitions. Some recent accomplishments:
   * 2023 NYC Marathon, 2:45:10
   * 2023 IronMan Lake Placid, 11:44:40
   * 2023 Boston Marathon, 2:48:52
+
 *Follow me on [Strava](https://www.strava.com/athletes/59121264)* 
 
