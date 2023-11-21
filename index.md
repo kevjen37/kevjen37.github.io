@@ -16,7 +16,7 @@ Currently working as a management consultant in New York City
 *Connect with me on [Linkedin](https://www.linkedin.com/in/kevjen/)*
 
 
-## Interests:
+## Interests
 
 * Researching anything technology-related, with an emphasis on smart energy, public policy, and emerging tech. *[technology insights](https://kevjen37.github.io/tech-insights.html)*
 
@@ -29,7 +29,7 @@ Currently working as a management consultant in New York City
   * *Follow me on [Strava](https://www.strava.com/athletes/59121264)*
  
 
-## Contact:
+## Contact
 
 Reach me at kmj891@gmail.com
 
