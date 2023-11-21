@@ -7,7 +7,7 @@ __Education:__
 
 __Career:__
 
-*I started my career in the smart energy industry, beginning as a software engineer and advancing into capital project management. I went back to business school full-time where I held multiple research positions for faculty, a think tank, and an emerging technology research firm. Currently I am working as a management consultant in New York City.*
+*I started my career in the smart energy industry, beginning as a software engineer and advancing into capital project management. I went back to business school full-time where I held multiple research positions for faculty, a think tank, and an emerging technology research firm. Currently, I am working as a management consultant in New York City.*
 
 *Connect with me on [Linkedin](https://www.linkedin.com/in/kevjen/)*
 
@@ -22,7 +22,8 @@ __Career:__
   * 2023 NYC Marathon, 2:45:10
   * 2023 IronMan Lake Placid, 11:44:40
   * 2023 Boston Marathon, 2:48:52
-  * *Follow me on [Strava](https://www.strava.com/athletes/59121264)*
+
+*Follow me on [Strava](https://www.strava.com/athletes/59121264)*
  
 
 ## Contact
