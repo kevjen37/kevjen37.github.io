@@ -1,11 +1,11 @@
 ## Background
 
-_Education:_
+__Education:__
 
 * Master of Business Administration (MBA), Georgetown University
 * Bachelor's Degree in Computer Science, Rutgers University
 
-_Career:_
+__Career:__
 
 *I started my career in the smart energy industry, beginning as a software engineer and advancing into capital project management. I went back to business school full-time where I held multiple research positions for faculty, a think tank, and an emerging technology research firm. Currently I am working as a management consultant in New York City.*
 
