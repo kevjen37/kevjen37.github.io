@@ -24,6 +24,16 @@
           <!--<h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>-->
           <h2 id="project_tagline"><em>{{ site.description | default: site.github.project_tagline }}</em></h2>
 
+          <!-- Navigation Buttons -->
+          <nav id="navigation">
+            <ul>
+              <li><a href="#about-me">About me</a></li>
+              <li><a href="#side-projects">Side Projects</a></li>
+              <li><a href="#tech-insights">Tech Insights</a></li>
+            </ul>
+          </nav>
+
+          
           {% if site.show_downloads %}
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
@@ -31,17 +41,13 @@
             </section>
           {% endif %}
         </header>
-    <!--</div>-->
+    </div>
 
-    <!-- Navigation Buttons -->
-    <nav id="navigation">
-      <ul>
-        <li><a href="#about-me">About me</a></li>
-        <li><a href="#side-projects">Side Projects</a></li>
-        <li><a href="#tech-insights">Tech Insights</a></li>
-      </ul>
-    </nav>
-  </div>
+
+
+      
+    
+
 
     
     <!-- MAIN CONTENT -->
