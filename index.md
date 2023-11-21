@@ -26,6 +26,10 @@ Currently working as a management consultant in New York City
   * 2023 NYC Marathon, 2:45:10
   * 2023 IronMan Lake Placid, 11:44:40
   * 2023 Boston Marathon, 2:48:52
+  * *Follow me on [Strava](https://www.strava.com/athletes/59121264)*
+ 
 
-*Follow me on [Strava](https://www.strava.com/athletes/59121264)* 
+## Contact:
+
+Reach me at kmj891@gmail.com
 
