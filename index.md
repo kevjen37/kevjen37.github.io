@@ -20,7 +20,7 @@ __Career:__
 
 * Training for endurance competitions. Some recent accomplishments:
   * 2023 NYC Marathon, 2:45:10
-  * 2023 IronMan Lake Placid, 11:44:40
+  * 2023 Iron Man Lake Placid, 11:44:40
   * 2023 Boston Marathon, 2:48:52
 
 *Follow me on [Strava](https://www.strava.com/athletes/59121264)*
