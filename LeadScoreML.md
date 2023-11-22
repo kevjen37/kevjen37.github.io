@@ -16,13 +16,13 @@ Once historical wins customer segments are established, the program inserts a le
 
 __Program Flow__
 
-[![ML Flow Chart](MLFlowChart.jpg)]
+![ML Flow Chart](MLFlowChart.jpg)
 
 Program takes historical wins spreadsheet and sales pipeline spreadsheet as inputs, and outputs a third spreadsheet with corresponding clusters.
 
 __Interpreting Clusters__
 
-[![ML Terminal](MLTerminal.jpg)]
+![ML Terminal](MLTerminal.jpg)
 
 In the above text box, the cluster number is y-axis and the customer parameters are the x-axis. The numbers corresponding to each cell are the average number corresponding to each cluster, with an average of 1 and standard deviation of 0 for each. To further clarify, each number is on a scale from -1 to 1. Given this, segment 0 represents a customer segment with the highest budget, guest count, and days to the wedding. Segment 4 represents a customer segment with a high willingness to pay for a smaller guest count. 
 
