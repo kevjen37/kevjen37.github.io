@@ -1,5 +1,8 @@
 ## Side Projects
 
+### [__BrowPrompt__](https://kevjen37.github.io/VisionGPT.html)
+*Computer vision software that uses facial cues as a mechanism to activate voice prompting to GPT-4o.*
+
 ### [__Automated Grow System__](https://kevjen37.github.io/growsystem.html)
 *Automatic control system designed to automate the lighting, temperature, and humidity of apartment plants.*
 
