@@ -5,7 +5,7 @@ _Click for demo_
 
 __🤔 The Problem: Why I Built BrowPrompt__
 
-Throughout my day, I routinely consult language model for answers. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
+Throughout my day, I routinely consult language models for answers. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
 
 __💡 The Solution: BrowPrompt's Value Proposition__
 
@@ -23,7 +23,7 @@ __🚀 User Benefits:__
 
 __👨‍🏫 How to Use:__
 
-1. User sets the sliding scale to calibrate the distance from their face to the camera (can be changed while program is running).
+1. User sets the sliding scale to calibrate the distance from their face to the camera (can be changed while the program is running).
 2. When the program detects a brow raise longer than 2 seconds, it will play an audible ping and the user can begin dictating their prompt.
 3. User can choose to copy response generated in the text box using the "Copy Text" button.
 
@@ -62,7 +62,7 @@ __Architecture and Design:__
 - Design Patterns: Used MVC architecture for modularity and scalability, including a multithreaded approach for API calls to keep the application responsive.
 
 __Roadmap:__
-- Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eye brows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a bro raise. This can lead to false positives and misclaculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
+- Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eyebrows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a brow raise. This can lead to false positives and miscalculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
 - Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
 
 
