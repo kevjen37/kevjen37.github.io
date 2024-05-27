@@ -1,7 +1,5 @@
 ## BrowPrompt for Hands-Free Prompting
 
-_Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
-
 [![BrowPrompt](BrowPrompt_Thumbnail.jpg)]([https://youtu.be/3vlb6Qc-xBE] "BrowPrompt")
 _Click for demo_
 
