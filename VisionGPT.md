@@ -2,11 +2,11 @@
 
 _Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
 
-__The Problem: Why I Built BrowPrompt__
+🤔__The Problem: Why I Built BrowPrompt__
 
 Like many knowledge workers, I frequently prompt language models to answer questions throughout my day. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
 
-__The Solution: BrowPrompt's Value Proposition__
+💡__The Solution: BrowPrompt's Value Proposition__
 
 BrowPrompt is an application that leverages computer vision to monitor facial cues as a mechanism to initiate voice-to-text prompting with GPT-4o. Here’s how it works:
 
@@ -14,13 +14,19 @@ BrowPrompt is an application that leverages computer vision to monitor facial cu
 - Voice-to-Text Auomation: Upon detecting the eyebrow raise, BrowPrompt turns on your microphone to capture your query, eliminating the need to navigate through menus or manually activate voice commands. Captured audio is then passed through Google's Web Speech API to be converted to text.
 - Prompting GPT-4o: The converted text is fed directly to GPT-4o via OpenAI's API, which returns the model's response both in text and through OpenAI's text-to-speech (TTS-1) model.
 
-__User Benefits:__ 
+🏫__How to Use:__
+
+- User sets the sliding scale to calibrate the distance from their face to the camera (can be changed while program is running).
+- When the program detects a brow raise longer than 2 seconds, it will play an audible ping and the user can begin dictating their prompt.
+- User can choose to copy response generated in the text box using the "Copy Text" button.
+
+🚀__User Benefits:__ 
 
 - Hands-Free Operation: Easily prompt GPT-4 with just an eyebrow raise, keeping your hands free for other tasks.
 - Enhanced Privacy: By monitoring facial cues instead of always listening, BrowPrompt respects your privacy while remaining readily accessible.
 - Low Overhead: BrowPrompt can run in the background, providing quick access to information without the need for constant manual input.
 
-__Tech Specs:__ 
+💻__Tech Specs:__ 
 
 _Technologies Used:_
 - Programming Languages: Python for the backend logic and a custom Python tkinter library (customtkinter) for the frontend interface.
@@ -29,15 +35,6 @@ _Technologies Used:_
   - PIL to convert BGR format (used by OpenCV) to RGB format that can be displayed by Tkinter.
   - dlib for facial landmark detection, including landmarks around the eyes and eyebrows which I use to calculate vector distance.
 - APIs and Services: OpenAI API for GPT-4o interactions and Google Web Speech API for voice-to-text conversion.
-
-_Architecture and Design:_
-- System Architecture: The system consists of a front-end interface for user interaction, a backend server that handles facial recognition and voice processing, and integration with external APIs for AI responses.
-- Design Patterns: Used MVC architecture for modularity and scalability, including a multithreaded approach for API calls to keep the application responsive.
-
-_Roadmap:_
-- Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eye brows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a bro raise. This can lead to false positives and misclaculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
-- Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
-
 
 _Below code block outlines how OpenCV, dlib, and NumPy interact: OpenCV detects faces, while dlib converts into a format suitable for landmark detection. The dlib predictor identifies key facial landmarks, which are converted into a NumPy array for easier manipulation. The code then calculates the Euclidean distances between specific eye and eyebrow landmarks to determine if the eyebrows are raised, leading to microphone trigger event_
 ~~~python
@@ -58,3 +55,14 @@ for (x, y, w, h) in faces:
   RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
   RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
 ~~~
+
+_Architecture and Design:_
+- System Architecture: The system consists of a front-end interface for user interaction, a backend server that handles facial recognition and voice processing, and integration with external APIs for AI responses.
+- Design Patterns: Used MVC architecture for modularity and scalability, including a multithreaded approach for API calls to keep the application responsive.
+
+_Roadmap:_
+- Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eye brows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a bro raise. This can lead to false positives and misclaculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
+- Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
+
+
+
