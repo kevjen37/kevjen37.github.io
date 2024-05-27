@@ -39,23 +39,22 @@ _Roadmap:_
 - Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
 
 
+_Below code block outlines how OpenCV, dlib, and NumPy interact: OpenCV detects faces, while dlib converts into a format suitable for landmark detection. The dlib predictor identifies key facial landmarks, which are converted into a NumPy array for easier manipulation. The code then calculates the Euclidean distances between specific eye and eyebrow landmarks to determine if the eyebrows are raised, leading to microphone trigger event_
 ~~~python
-{
-            # Draw rectangles around the detected faces
-            for (x, y, w, h) in faces:
-                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                # Converting the OpenCV rectangle coordinates to Dlib rectangle
-                dlib_rect = dlib.rectangle(int(x), int(y), int(x+w), int(y+h))
-                # Detecting landmarks
-                detected_landmarks = predictor(frame, dlib_rect).parts()
-                # Converting to np matrix
-                landmarks = np.array([[p.x, p.y] for p in detected_landmarks])
-                #logic to measure distance between eyes and eye brows
-                LE_1 = np.linalg.norm(landmarks[39] - landmarks[21])
-                LE_2 = np.linalg.norm(landmarks[38] - landmarks[20])
-                LE_3 = np.linalg.norm(landmarks[37] - landmarks[19])
-                RE_1 = np.linalg.norm(landmarks[42] - landmarks[22])
-                RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
-                RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
-  }
-  ~~~
+# Draw rectangles around the detected faces
+for (x, y, w, h) in faces:
+  cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+  # Converting the OpenCV rectangle coordinates to Dlib rectangle
+  dlib_rect = dlib.rectangle(int(x), int(y), int(x+w), int(y+h))
+  # Detecting landmarks
+  detected_landmarks = predictor(frame, dlib_rect).parts()
+  # Converting to np matrix
+  landmarks = np.array([[p.x, p.y] for p in detected_landmarks])
+  #logic to measure distance between eyes and eye brows
+  LE_1 = np.linalg.norm(landmarks[39] - landmarks[21])
+  LE_2 = np.linalg.norm(landmarks[38] - landmarks[20])
+  LE_3 = np.linalg.norm(landmarks[37] - landmarks[19])
+  RE_1 = np.linalg.norm(landmarks[42] - landmarks[22])
+  RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
+  RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
+~~~
