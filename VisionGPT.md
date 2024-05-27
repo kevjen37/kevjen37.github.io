@@ -14,17 +14,17 @@ BrowPrompt is an application that leverages computer vision to monitor facial cu
 - Voice-to-Text Auomation: Upon detecting the eyebrow raise, BrowPrompt turns on your microphone to capture your query, eliminating the need to navigate through menus or manually activate voice commands. Captured audio is then passed through Google's Web Speech API to be converted to text.
 - Prompting GPT-4o: The converted text is fed directly to GPT-4o via OpenAI's API, which returns the model's response both in text and through OpenAI's text-to-speech (TTS-1) model.
 
-__👨‍🏫 How to Use:__
-
-- User sets the sliding scale to calibrate the distance from their face to the camera (can be changed while program is running).
-- When the program detects a brow raise longer than 2 seconds, it will play an audible ping and the user can begin dictating their prompt.
-- User can choose to copy response generated in the text box using the "Copy Text" button.
-
 __🚀 User Benefits:__ 
 
 - Hands-Free Operation: Easily prompt GPT-4 with just an eyebrow raise, keeping your hands free for other tasks.
 - Enhanced Privacy: By monitoring facial cues instead of always listening, BrowPrompt respects your privacy while remaining readily accessible.
 - Low Overhead: BrowPrompt can run in the background, providing quick access to information without the need for constant manual input.
+
+__👨‍🏫 How to Use:__
+
+1. User sets the sliding scale to calibrate the distance from their face to the camera (can be changed while program is running).
+2. When the program detects a brow raise longer than 2 seconds, it will play an audible ping and the user can begin dictating their prompt.
+3. User can choose to copy response generated in the text box using the "Copy Text" button.
 
 __💻 Tech Specs:__ 
 
