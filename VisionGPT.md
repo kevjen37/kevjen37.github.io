@@ -4,7 +4,7 @@ _Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
 
 __🤔 The Problem: Why I Built BrowPrompt__
 
-Like many knowledge workers, I frequently prompt language models to answer questions throughout my day. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
+Throughout my day, I routinely consult language model for answers. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
 
 __💡 The Solution: BrowPrompt's Value Proposition__
 
