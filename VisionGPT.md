@@ -1,4 +1,4 @@
-## Introducing BrowPrompt for Hands-Free Information Access
+## BrowPrompt for Hands-Free Prompting
 
 _Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
 
