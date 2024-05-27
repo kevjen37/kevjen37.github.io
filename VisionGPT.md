@@ -1,6 +1,6 @@
 ## BrowPrompt for Hands-Free Prompting
 
-[![BrowPrompt](BrowPrompt_Thumbnail.jpg)]([https://youtu.be/3vlb6Qc-xBE] "BrowPrompt")
+[![BrowPrompt](BrowPrompt_Thumbnail.jpg)](https://youtu.be/3vlb6Qc-xBE "BrowPrompt")
 _Click for demo_
 
 __🤔 The Problem: Why I Built BrowPrompt__
