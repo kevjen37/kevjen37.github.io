@@ -1,6 +1,7 @@
 ## Introducing BrowPrompt for Hands-Free Information Access
 
-__[BrowPrompt](https://youtu.be/3vlb6Qc-xBE)__
+# [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)
+
 _link to YouTube demo_
 
 __The Problem: Why I Built BrowPrompt__
