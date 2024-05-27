@@ -39,7 +39,7 @@ _Roadmap:_
 - Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
 
 
-'''python
+~~~python
 {
             # Draw rectangles around the detected faces
             for (x, y, w, h) in faces:
@@ -58,4 +58,4 @@ _Roadmap:_
                 RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
                 RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
   }
-  '''
+  ~~~
