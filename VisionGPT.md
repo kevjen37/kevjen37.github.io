@@ -2,7 +2,7 @@
 
 _Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
 
-[![BrowPrompt]()]([https://youtu.be/3vlb6Qc-xBE] "BrowPrompt")
+[![BrowPrompt](Screen Shot 2024-05-27 at 1.31.49 PM.png)]([https://youtu.be/3vlb6Qc-xBE] "BrowPrompt")
 _Click for demo_
 
 __🤔 The Problem: Why I Built BrowPrompt__
