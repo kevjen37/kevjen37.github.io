@@ -2,6 +2,9 @@
 
 _Link to demo: [BrowPrompt](https://youtu.be/3vlb6Qc-xBE)_
 
+[![BrowPrompt]()]([https://youtu.be/3vlb6Qc-xBE] "BrowPrompt")
+_Click for demo_
+
 __🤔 The Problem: Why I Built BrowPrompt__
 
 Throughout my day, I routinely consult language model for answers. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
