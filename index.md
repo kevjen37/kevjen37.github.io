@@ -7,7 +7,7 @@ __Education:__
 
 __Career:__
 
-*I started my career in the smart energy industry, beginning as a software engineer and advancing into capital project management. I went back to business school full-time where I held multiple research positions for faculty, a think tank, and an emerging technology research firm. Currently, I am working as a management consultant in New York City.*
+*I started my career in the smart energy industry, beginning as a software engineer and advancing into project management. I went back to business school full-time where I held multiple research positions for faculty, a think tank, and an emerging technology research firm. Currently, I am working as a management consultant in New York City.*
 
 *Connect with me on [Linkedin](https://www.linkedin.com/in/kevjen/)*
 
