@@ -37,7 +37,6 @@ __Technologies Used:__
   - dlib for facial landmark detection, including landmarks around the eyes and eyebrows which I use to calculate vector distance.
 - APIs and Services: OpenAI API for GPT-4o interactions and Google Web Speech API for voice-to-text conversion.
 
-_Below code block outlines how OpenCV, dlib, and NumPy interact: OpenCV detects faces, while dlib converts into a format suitable for landmark detection. The dlib predictor identifies key facial landmarks, which are converted into a NumPy array for easier manipulation. The code then calculates the Euclidean distances between specific eye and eyebrow landmarks to determine if the eyebrows are raised, leading to microphone trigger event_
 ~~~python
 # Draw rectangles around the detected faces
 for (x, y, w, h) in faces:
@@ -56,6 +55,7 @@ for (x, y, w, h) in faces:
   RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
   RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
 ~~~
+_code block shows how OpenCV, dlib, and NumPy interact: OpenCV detects faces, while dlib converts into a format suitable for landmark detection. The dlib predictor identifies key facial landmarks, which are converted into a NumPy array for easier manipulation. The code then calculates the Euclidean distances between specific eye and eyebrow landmarks to determine if the eyebrows are raised, leading to microphone trigger event_
 
 __Architecture and Design:__
 - System Architecture: The system consists of a front-end interface for user interaction, a backend server that handles facial recognition and voice processing, and integration with external APIs for AI responses.
