@@ -19,3 +19,43 @@ __User Benefits:__
 - Hands-Free Operation: Easily prompt GPT-4 with just an eyebrow raise, keeping your hands free for other tasks.
 - Enhanced Privacy: By monitoring facial cues instead of always listening, BrowPrompt respects your privacy while remaining readily accessible.
 - Low Overhead: BrowPrompt can run in the background, providing quick access to information without the need for constant manual input.
+
+__Tech Specs:__ 
+
+_Technologies Used:_
+- Programming Languages: Python for the backend logic and a custom Python tkinter library (customtkinter) for the frontend interface.
+- Frameworks and Libraries:
+  - OpenCV cv2 library for facial recognition, including pre-trained Haarcascade classifier used to detect faces in real-time.
+  - PIL to convert BGR format (used by OpenCV) to RGB format that can be displayed by Tkinter.
+  - dlib for facial landmark detection, including landmarks around the eyes and eyebrows which I use to calculate vector distance.
+- APIs and Services: OpenAI API for GPT-4o interactions and Google Web Speech API for voice-to-text conversion.
+
+_Architecture and Design:_
+- System Architecture: The system consists of a front-end interface for user interaction, a backend server that handles facial recognition and voice processing, and integration with external APIs for AI responses.
+- Design Patterns: Used MVC architecture for modularity and scalability, including a multithreaded approach for API calls to keep the application responsive.
+
+_Roadmap:_
+- Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eye brows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a bro raise. This can lead to false positives and misclaculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
+- Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
+
+
+'''python
+{
+            # Draw rectangles around the detected faces
+            for (x, y, w, h) in faces:
+                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                # Converting the OpenCV rectangle coordinates to Dlib rectangle
+                dlib_rect = dlib.rectangle(int(x), int(y), int(x+w), int(y+h))
+                # Detecting landmarks
+                detected_landmarks = predictor(frame, dlib_rect).parts()
+                # Converting to np matrix
+                landmarks = np.array([[p.x, p.y] for p in detected_landmarks])
+                #logic to measure distance between eyes and eye brows
+                LE_1 = np.linalg.norm(landmarks[39] - landmarks[21])
+                LE_2 = np.linalg.norm(landmarks[38] - landmarks[20])
+                LE_3 = np.linalg.norm(landmarks[37] - landmarks[19])
+                RE_1 = np.linalg.norm(landmarks[42] - landmarks[22])
+                RE_2 = np.linalg.norm(landmarks[43] - landmarks[23])
+                RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
+  }
+  '''
