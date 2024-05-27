@@ -29,7 +29,7 @@ __👨‍🏫 How to Use:__
 
 __💻 Tech Specs:__ 
 
-_Technologies Used:_
+__Technologies Used:__
 - Programming Languages: Python for the backend logic and a custom Python tkinter library (customtkinter) for the frontend interface.
 - Frameworks and Libraries:
   - OpenCV cv2 library for facial recognition, including pre-trained Haarcascade classifier used to detect faces in real-time.
@@ -57,11 +57,11 @@ for (x, y, w, h) in faces:
   RE_3 = np.linalg.norm(landmarks[44] - landmarks[24])
 ~~~
 
-_Architecture and Design:_
+__Architecture and Design:__
 - System Architecture: The system consists of a front-end interface for user interaction, a backend server that handles facial recognition and voice processing, and integration with external APIs for AI responses.
 - Design Patterns: Used MVC architecture for modularity and scalability, including a multithreaded approach for API calls to keep the application responsive.
 
-_Roadmap:_
+__Roadmap:__
 - Dynamic Vector Setpoint: Current implementation calculates distance between 6 vectors connecting the eyes and eye brows in order to identify a brow raise. The frontend contains a slider for the user to set a static threshold, which the program uses to constitute a bro raise. This can lead to false positives and misclaculations as the user shifts positions away from the camera. To improve this, I am working to program a dynamic setpoint that changes using the users other facial features as a benchmark.
 - Latency: There is room for improvements with latency as the program relies on multiple API calls. Tests to be conducted to identify bottlenecks in cycle time, including testing time of API calls and speed of alternative TTS, voice-to-text, and GPT models.
 
