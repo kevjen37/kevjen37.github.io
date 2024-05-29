@@ -16,7 +16,7 @@ __Career:__
 
 * Researching anything technology-related, with an emphasis on smart energy, public policy, and emerging tech. *[technology insights](https://kevjen37.github.io/tech-insights.html)*
 
-* Building tools to analyze endurance training data, messing with electronics, and developing data analysis tools for small businesses. *[side projects](https://kevjen37.github.io/side-projects.html)*, *[Github](https://github.com/kevjen37)*
+* Building tools to analyze endurance training data, messing with electronics, and developing data analysis tools for small businesses. *[side projects](https://kevjen37.github.io/side-projects.html)*
 
 * Training for endurance competitions. Some recent accomplishments:
   * 2023 NYC Marathon, 2:45:10
