@@ -1,4 +1,4 @@
-## BrowPrompt for Hands-Free Prompting
+## BrowPrompt for Computer Vision-Based AI Interaction
 
 [![BrowPrompt](Thumbnail_Final.JPG)](https://youtu.be/3vlb6Qc-xBE "BrowPrompt Youtube Demo")
 _Click for demo_
