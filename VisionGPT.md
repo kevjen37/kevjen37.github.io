@@ -5,14 +5,25 @@ _Click for demo_
 
 __🤔 The Problem: Why I Built BrowPrompt__
 
-Throughout my day, I routinely consult language models for answers. However, I have not found an effective way to access these tools without constantly navigating to a web app or having my microphone always on and listening. This gap inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach.
+_Is it just me, or is something left to be desired in how we interface with generative AI?_
 
-__💡 The Solution: BrowPrompt's Value Proposition__
+Throughout my day, I routinely consult language models for answers. However, I have not found an effective way to access these tools without:
+1. constantly navigating to a web app; sifting through all my tabs, only to find that I've been automatically logged out.
+2. having my microphone always on and listening: "Hey Siri!" — Even though consumers have resigned to having applications always listening, it is hard to believe this is the preferred status quo.
 
-BrowPrompt is an application that leverages computer vision to monitor facial cues as a mechanism to initiate voice-to-text prompting with GPT-4o. Here’s how it works:
+As AI becomes a more useful copilot, I am interested in holistically exploring new ways to interact with it. This inspired me to develop BrowPrompt, a solution designed to streamline this process with a unique approach. 
 
-- Facial Cue Detection: BrowPrompt continuously monitors your face for a specific cue – an eyebrow raise. This ensures that the microphone activates only when you intend to use it.
-- Voice-to-Text Auomation: Upon detecting the eyebrow raise, BrowPrompt turns on your microphone to capture your query, eliminating the need to navigate through menus or manually activate voice commands. Captured audio is then passed through Google's Web Speech API to be converted to text.
+__💡 The Solution: Exploring Applications of Computer Vision for Improved Interaction__
+
+_What if your facial expression could be used to identify when you are prompting an AI model?_
+
+Using facial expressions as a trigger enables hands-free interaction with the model, eliminating the need to type a prompt, press a button, or use a vocal command like "Hey Siri."
+
+BrowPrompt, my computer vision-based prototype, leverages an eyebrow raise lasting over two seconds to trigger AI-prompting. This facial cue is simple yet deliberate, minimizing false positives since extended eyebrow raises are uncommon in regular activities.
+
+Here’s how it works:
+- Facial Cue Detection: BrowPrompt continuously monitors your face for an extended eyebrow raise, ensuring that the microphone activates only when you intend to use it.
+- Voice-to-Text Auomation: Upon detecting the eyebrow raise, BrowPrompt turns on your microphone to capture your query. Captured audio is then passed through Google's Web Speech API to be converted to text.
 - Prompting GPT-4o: The converted text is fed directly to GPT-4o via OpenAI's API, which returns the model's response both in text and through OpenAI's text-to-speech (TTS-1) model.
 
 __🚀 User Benefits:__ 
