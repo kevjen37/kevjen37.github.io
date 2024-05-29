@@ -1,6 +1,6 @@
 ## Side Projects
 
-### [__BrowPrompt__](https://kevjen37.github.io/VisionGPT.html)
+### [__BrowPrompt__](https://kevjen37.github.io/BrowPrompt.html)
 *Computer vision software that uses facial cues as a mechanism to activate voice prompting to GPT-4o.*
 
 ### [__Automated Grow System__](https://kevjen37.github.io/growsystem.html)
