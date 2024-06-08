@@ -19,6 +19,7 @@ __Career:__
 * Building tools to analyze endurance training data, messing with electronics, and developing data analysis tools for small businesses. *[side projects](https://kevjen37.github.io/side-projects.html)*
 
 * Training for endurance competitions. Some recent accomplishments:
+  * 2024 Old Dominion 100-mile Cross Country Race, 23:45:15
   * 2023 NYC Marathon, 2:45:10
   * 2023 Iron Man Lake Placid, 11:44:40
   * 2023 Boston Marathon, 2:48:52
